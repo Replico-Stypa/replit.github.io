@@ -69,6 +69,10 @@
       {
         "name": "Debugging",
         "slug": "debugging"
+      },
+      {
+        "name": "Switch themes",
+        "slug": "switch-dark-mode-light-mode-themes"
       }
     ]
   },
