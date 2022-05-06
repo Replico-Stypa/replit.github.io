@@ -18,6 +18,7 @@ If you'd like to contribute please [fork this repl](https://docs.replit.com/__re
 When adding new pages, the markdown file should be placed in the appropriate folder (`repls`/`classrooms`/`misc`), and an additional entry should be added to the `sidebar.json` file.
 
 The markdown files support the following HTML tags:
+
 * `img`
 * `iframe`
 * `pre`
