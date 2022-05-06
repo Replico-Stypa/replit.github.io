@@ -522,6 +522,10 @@
         "slug": "43-build-a-robot-nft-p2"
       },
       {
+         "name": "Smart contract oracle with Solidity",
+        "slug": "44-build-smart-contract-oracle"
+      },
+      {
         "name": "Pinboard project part 1: HTML & CSS",
         "slug": "pinboard-project-part-1"
       },
