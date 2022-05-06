@@ -75,7 +75,8 @@ We've made a Nix repl containing the production web stack available here: [https
 
 Open it now, or fork it to your profile, and we'll go over how it works. Ensure that the repl's config files are showing. 
 
-<img src="/images/tutorials/30-build-with-nix/show-config.png"
+<img src="/images/tutorials/30-build-with-nix/
+  show-hidden-files.png"
    alt="Show configuration"
    style="width: 350px !important;"/>
 
