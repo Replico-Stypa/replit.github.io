@@ -614,6 +614,36 @@
   {
     "category": "Programming & IDE",
     "name": "Configuring a Repl",
+    "heading": "`replit.nix`",
+    "slug": "/programming-ide/configuring-repl#replit-nix"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Learn More About Nix",
+    "slug": "/programming-ide/configuring-repl#learn-more-about-nix"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Written Guides",
+    "slug": "/programming-ide/configuring-repl#written-guides"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Video Guides",
+    "slug": "/programming-ide/configuring-repl#video-guides"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`.replit`",
+    "slug": "/programming-ide/configuring-repl#replit"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
     "heading": "The command that is executed when the run button is clicked.",
     "slug": "/programming-ide/configuring-repl#the-command-that-is-executed-when-the-run-button-is-clicked"
   },
@@ -622,6 +652,12 @@
     "name": "Configuring a Repl",
     "heading": "The default file opened in the editor.",
     "slug": "/programming-ide/configuring-repl#the-default-file-opened-in-the-editor"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Setting environment variables",
+    "slug": "/programming-ide/configuring-repl#setting-environment-variables"
   },
   {
     "category": "Programming & IDE",
@@ -650,32 +686,392 @@
   {
     "category": "Programming & IDE",
     "name": "Configuring a Repl",
-    "heading": "Configuring a Cloned Repl",
-    "slug": "/programming-ide/configuring-repl#configuring-a-cloned-repl"
+    "heading": "`.replit` reference",
+    "slug": "/programming-ide/configuring-repl#replit-reference"
   },
   {
     "category": "Programming & IDE",
     "name": "Configuring a Repl",
-    "heading": "Other Configuration",
-    "slug": "/programming-ide/configuring-repl#other-configuration"
+    "heading": "`run`",
+    "slug": "/programming-ide/configuring-repl#run"
   },
   {
     "category": "Programming & IDE",
     "name": "Configuring a Repl",
-    "heading": "Command",
+    "heading": "`entrypoint`",
+    "slug": "/programming-ide/configuring-repl#entrypoint"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`onBoot`",
+    "slug": "/programming-ide/configuring-repl#on-boot"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`compile`",
+    "slug": "/programming-ide/configuring-repl#compile"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`audio`",
+    "slug": "/programming-ide/configuring-repl#audio"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`language`",
+    "slug": "/programming-ide/configuring-repl#language"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`env",
+    "slug": "/programming-ide/configuring-repl#env"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`interpreter`",
+    "slug": "/programming-ide/configuring-repl#interpreter"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`command`",
     "slug": "/programming-ide/configuring-repl#command"
   },
   {
     "category": "Programming & IDE",
     "name": "Configuring a Repl",
-    "heading": "Example .replit File",
-    "slug": "/programming-ide/configuring-repl#example-replit-file"
+    "heading": "`prompt`",
+    "slug": "/programming-ide/configuring-repl#prompt"
   },
   {
     "category": "Programming & IDE",
     "name": "Configuring a Repl",
-    "heading": "HTML",
-    "slug": "/programming-ide/configuring-repl#html"
+    "heading": "`unitTest",
+    "slug": "/programming-ide/configuring-repl#unit-test"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`language`",
+    "slug": "/programming-ide/configuring-repl#language"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`packager",
+    "slug": "/programming-ide/configuring-repl#packager"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`afterInstall`",
+    "slug": "/programming-ide/configuring-repl#after-install"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`ignoredPaths`",
+    "slug": "/programming-ide/configuring-repl#ignored-paths"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`ignoredPackages`",
+    "slug": "/programming-ide/configuring-repl#ignored-packages"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`language`",
+    "slug": "/programming-ide/configuring-repl#language"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`packager.features",
+    "slug": "/programming-ide/configuring-repl#packager-features"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`packageSearch`",
+    "slug": "/programming-ide/configuring-repl#package-search"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`guessImports`",
+    "slug": "/programming-ide/configuring-repl#guess-imports"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`languages.<language name>",
+    "slug": "/programming-ide/configuring-repl#languages-language-name"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`pattern`",
+    "slug": "/programming-ide/configuring-repl#pattern"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`syntax`",
+    "slug": "/programming-ide/configuring-repl#syntax"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`languages.<language name>.languageServer",
+    "slug": "/programming-ide/configuring-repl#languages-language-name-language-server"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`start`",
+    "slug": "/programming-ide/configuring-repl#start"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`nix",
+    "slug": "/programming-ide/configuring-repl#nix"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`channel`",
+    "slug": "/programming-ide/configuring-repl#channel"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "`debugger",
+    "slug": "/programming-ide/configuring-repl#debugger"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Examples",
+    "slug": "/programming-ide/configuring-repl#examples"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Beginner",
+    "slug": "/programming-ide/configuring-repl#beginner"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "LaTeX",
+    "slug": "/programming-ide/configuring-repl#la-te-x"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Clojure",
+    "slug": "/programming-ide/configuring-repl#clojure"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Advanced",
+    "slug": "/programming-ide/configuring-repl#advanced"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Python",
+    "slug": "/programming-ide/configuring-repl#python"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "The command that runs the program. It is commented out because interpreter",
+    "slug": "/programming-ide/configuring-repl#the-command-that-runs-the-program-it-is-commented-out-because-interpreter"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "run = \"python3\", \"main.py\"]",
+    "slug": "/programming-ide/configuring-repl#run-python-3-main-py"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "The primary language of the repl. There can be others, though!",
+    "slug": "/programming-ide/configuring-repl#the-primary-language-of-the-repl-there-can-be-others-though"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "The main file, which will be shown by default in the editor.",
+    "slug": "/programming-ide/configuring-repl#the-main-file-which-will-be-shown-by-default-in-the-editor"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "A list of globs that specify which files and directories should",
+    "slug": "/programming-ide/configuring-repl#a-list-of-globs-that-specify-which-files-and-directories-should"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "be hidden in the workspace.",
+    "slug": "/programming-ide/configuring-repl#be-hidden-in-the-workspace"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Specifies which nix channel to use when building the environment.",
+    "slug": "/programming-ide/configuring-repl#specifies-which-nix-channel-to-use-when-building-the-environment"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Per-language configuration: python3",
+    "slug": "/programming-ide/configuring-repl#per-language-configuration-python-3"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Treats all files that end with `.py` as Python.",
+    "slug": "/programming-ide/configuring-repl#treats-all-files-that-end-with-py-as-python"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Tells the workspace editor to syntax-highlight these files as",
+    "slug": "/programming-ide/configuring-repl#tells-the-workspace-editor-to-syntax-highlight-these-files-as"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Python.",
+    "slug": "/programming-ide/configuring-repl#python"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "The command to start the interpreter.",
+    "slug": "/programming-ide/configuring-repl#the-command-to-start-the-interpreter"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "The environment variables needed to correctly start Python and use the",
+    "slug": "/programming-ide/configuring-repl#the-environment-variables-needed-to-correctly-start-python-and-use-the"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "package proxy.",
+    "slug": "/programming-ide/configuring-repl#package-proxy"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Enable unit tests. This is only supported for a few languages.",
+    "slug": "/programming-ide/configuring-repl#enable-unit-tests-this-is-only-supported-for-a-few-languages"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Add a debugger!",
+    "slug": "/programming-ide/configuring-repl#add-a-debugger"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Configures the packager.",
+    "slug": "/programming-ide/configuring-repl#configures-the-packager"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Search packages in PyPI.",
+    "slug": "/programming-ide/configuring-repl#search-packages-in-py-pi"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Never attempt to install `unittests`. If there are packages that are being",
+    "slug": "/programming-ide/configuring-repl#never-attempt-to-install-unittests-if-there-are-packages-that-are-being"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "guessed wrongly, add them here.",
+    "slug": "/programming-ide/configuring-repl#guessed-wrongly-add-them-here"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "HTML, CSS, JS",
+    "slug": "/programming-ide/configuring-repl#html-css-js"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "hosting is currently hardcoded for this language",
+    "slug": "/programming-ide/configuring-repl#hosting-is-currently-hardcoded-for-this-language"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "hosting]",
+    "slug": "/programming-ide/configuring-repl#hosting"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "route = \"/\"",
+    "slug": "/programming-ide/configuring-repl#route"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "directory= \"/\"",
+    "slug": "/programming-ide/configuring-repl#directory"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "TODO autocomplete relies on snippet support, which we don't advertise to LSP servers.",
+    "slug": "/programming-ide/configuring-repl#todo-autocomplete-relies-on-snippet-support-which-we-dont-advertise-to-lsp-servers"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "For now CSS autocomplete will use built-in codemirror, which is not perfect but good enough",
+    "slug": "/programming-ide/configuring-repl#for-now-css-autocomplete-will-use-built-in-codemirror-which-is-not-perfect-but-good-enough"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Java",
+    "slug": "/programming-ide/configuring-repl#java"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "Node.js",
+    "slug": "/programming-ide/configuring-repl#node-js"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Configuring a Repl",
+    "heading": "C++",
+    "slug": "/programming-ide/configuring-repl#c"
   },
   {
     "category": "Programming & IDE",
@@ -692,8 +1088,8 @@
   {
     "category": "Programming & IDE",
     "name": "Running GitHub repositories on Replit",
-    "heading": "Configuring your Repo",
-    "slug": "/programming-ide/running-github-repositories-replit#configuring-your-repo"
+    "heading": "Configuring a Cloned Repo",
+    "slug": "/programming-ide/running-github-repositories-replit#configuring-a-cloned-repo"
   },
   {
     "category": "Programming & IDE",
@@ -790,6 +1186,84 @@
     "name": "Debugging",
     "heading": "Adding support for other languages through Nix",
     "slug": "/programming-ide/debugging#adding-support-for-other-languages-through-nix"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Using Git with Replit",
+    "heading": null,
+    "slug": "programming-ide/git-with-replit"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Using Git with Replit",
+    "heading": "Using Git with Replit",
+    "slug": "/programming-ide/git-with-replit#using-git-with-replit"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Using Git with Replit",
+    "heading": "Using the GUI controls",
+    "slug": "/programming-ide/git-with-replit#using-the-gui-controls"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Using Git with Replit",
+    "heading": "Using the shell",
+    "slug": "/programming-ide/git-with-replit#using-the-shell"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Using Git with Replit",
+    "heading": "Cloning an existing repository from the shell",
+    "slug": "/programming-ide/git-with-replit#cloning-an-existing-repository-from-the-shell"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Using Git with Replit",
+    "heading": "Making changes on Replit and pushing back to a remote Git host",
+    "slug": "/programming-ide/git-with-replit#making-changes-on-replit-and-pushing-back-to-a-remote-git-host"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Using Git with Replit",
+    "heading": "Pushing without typing in your password or access token",
+    "slug": "/programming-ide/git-with-replit#pushing-without-typing-in-your-password-or-access-token"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Git Commands Reference Guide",
+    "heading": null,
+    "slug": "programming-ide/git-commands-reference-guide"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Git Commands Reference Guide",
+    "heading": "Git commands reference guide",
+    "slug": "/programming-ide/git-commands-reference-guide#git-commands-reference-guide"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Git Commands Reference Guide",
+    "heading": "Basic commands",
+    "slug": "/programming-ide/git-commands-reference-guide#basic-commands"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Git Commands Reference Guide",
+    "heading": "Advanced commands",
+    "slug": "/programming-ide/git-commands-reference-guide#advanced-commands"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Switch themes",
+    "heading": null,
+    "slug": "programming-ide/switch-dark-mode-light-mode-themes"
+  },
+  {
+    "category": "Programming & IDE",
+    "name": "Switch themes",
+    "heading": "Switch between dark mode and light mode ",
+    "slug": "/programming-ide/switch-dark-mode-light-mode-themes#switch-between-dark-mode-and-light-mode"
   },
   {
     "category": "Hosting",
@@ -1147,6 +1621,426 @@
   },
   {
     "category": "Hosting",
+    "name": "Using a Database",
+    "heading": null,
+    "slug": "hosting/using-a-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Using databases in Replit",
+    "slug": "/hosting/using-a-database#using-databases-in-replit"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Table of contents",
+    "slug": "/hosting/using-a-database#table-of-contents"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "How file persistence works <a name = \"a\"></a>",
+    "slug": "/hosting/using-a-database#how-file-persistence-works-a-name-a-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "First run:",
+    "slug": "/hosting/using-a-database#first-run"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Import the Replit database",
+    "slug": "/hosting/using-a-database#import-the-replit-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Add a key-value pairing to the database",
+    "slug": "/hosting/using-a-database#add-a-key-value-pairing-to-the-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Access and print the value associated with the key just created",
+    "slug": "/hosting/using-a-database#access-and-print-the-value-associated-with-the-key-just-created"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Declare a variable that stores an integer outside of the database",
+    "slug": "/hosting/using-a-database#declare-a-variable-that-stores-an-integer-outside-of-the-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Print the variable",
+    "slug": "/hosting/using-a-database#print-the-variable"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Output:",
+    "slug": "/hosting/using-a-database#output"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Second run:",
+    "slug": "/hosting/using-a-database#second-run"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Print the value from the key-value pairing created on the previous run",
+    "slug": "/hosting/using-a-database#print-the-value-from-the-key-value-pairing-created-on-the-previous-run"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Attempt to print from the variable which was defined in the previous run",
+    "slug": "/hosting/using-a-database#attempt-to-print-from-the-variable-which-was-defined-in-the-previous-run"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Output:",
+    "slug": "/hosting/using-a-database#output"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Choices: Replit Database vs SQLite <a name = \"b\"></a>",
+    "slug": "/hosting/using-a-database#choices-replit-database-vs-sq-lite-a-name-b-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Replit Database <a name = \"c\"></a>",
+    "slug": "/hosting/using-a-database#replit-database-a-name-c-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Importing the database <a name = \"e\"></a>",
+    "slug": "/hosting/using-a-database#importing-the-database-a-name-e-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Creating data <a name = \"f\"></a>",
+    "slug": "/hosting/using-a-database#creating-data-a-name-f-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Add a key and associated value to the database",
+    "slug": "/hosting/using-a-database#add-a-key-and-associated-value-to-the-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Output:",
+    "slug": "/hosting/using-a-database#output"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Reading data <a name = \"g\"></a>",
+    "slug": "/hosting/using-a-database#reading-data-a-name-g-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Create data in the database",
+    "slug": "/hosting/using-a-database#create-data-in-the-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Access and print data from the database",
+    "slug": "/hosting/using-a-database#access-and-print-data-from-the-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Output:",
+    "slug": "/hosting/using-a-database#output"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Create data for the database",
+    "slug": "/hosting/using-a-database#create-data-for-the-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Access the value of the data created by its key",
+    "slug": "/hosting/using-a-database#access-the-value-of-the-data-created-by-its-key"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Create data for the database",
+    "slug": "/hosting/using-a-database#create-data-for-the-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Access the keys from the database and print the values associated for key in db",
+    "slug": "/hosting/using-a-database#access-the-keys-from-the-database-and-print-the-values-associated-for-key-in-db"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Create data for the database",
+    "slug": "/hosting/using-a-database#create-data-for-the-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Print all the keys from the database",
+    "slug": "/hosting/using-a-database#print-all-the-keys-from-the-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Output:",
+    "slug": "/hosting/using-a-database#output"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Create data for the database",
+    "slug": "/hosting/using-a-database#create-data-for-the-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Print all the keys from the database that have a prefix of \"my\"",
+    "slug": "/hosting/using-a-database#print-all-the-keys-from-the-database-that-have-a-prefix-of-my"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Output:",
+    "slug": "/hosting/using-a-database#output"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Updating data <a name = \"h\"></a>",
+    "slug": "/hosting/using-a-database#updating-data-a-name-h-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Create data with \"float1\" as key and print",
+    "slug": "/hosting/using-a-database#create-data-with-float-1-as-key-and-print"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Update data at \"float1\" key and print",
+    "slug": "/hosting/using-a-database#update-data-at-float-1-key-and-print"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Output:",
+    "slug": "/hosting/using-a-database#output"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Create data with \"float1\" as key and print",
+    "slug": "/hosting/using-a-database#create-data-with-float-1-as-key-and-print"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Perform an operation on the data",
+    "slug": "/hosting/using-a-database#perform-an-operation-on-the-data"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Print result of operation",
+    "slug": "/hosting/using-a-database#print-result-of-operation"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Output:",
+    "slug": "/hosting/using-a-database#output"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Deleting data <a name = \"i\"></a>",
+    "slug": "/hosting/using-a-database#deleting-data-a-name-i-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Create data for the database",
+    "slug": "/hosting/using-a-database#create-data-for-the-database"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Delete the data we added at the key \"float1\"",
+    "slug": "/hosting/using-a-database#delete-the-data-we-added-at-the-key-float-1"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Output:",
+    "slug": "/hosting/using-a-database#output"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Summary <a name = \"j\"></a>",
+    "slug": "/hosting/using-a-database#summary-a-name-j-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "SQLite database <a name = \"k\"></a>",
+    "slug": "/hosting/using-a-database#sq-lite-database-a-name-k-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Import ",
+    "slug": "/hosting/using-a-database#import"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Create the database and connection",
+    "slug": "/hosting/using-a-database#create-the-database-and-connection"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Create a table for storing data",
+    "slug": "/hosting/using-a-database#create-a-table-for-storing-data"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Perform CRUD operations",
+    "slug": "/hosting/using-a-database#perform-crud-operations"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Create",
+    "slug": "/hosting/using-a-database#create"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Read",
+    "slug": "/hosting/using-a-database#read"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Update",
+    "slug": "/hosting/using-a-database#update"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Delete",
+    "slug": "/hosting/using-a-database#delete"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Commit changes",
+    "slug": "/hosting/using-a-database#commit-changes"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Close the connection",
+    "slug": "/hosting/using-a-database#close-the-connection"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Importing the database <a name = \"m\"></a>",
+    "slug": "/hosting/using-a-database#importing-the-database-a-name-m-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Creating and connecting to a database <a name = \"n\"></a>",
+    "slug": "/hosting/using-a-database#creating-and-connecting-to-a-database-a-name-n-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Creating tables <a name = \"o\"></a>",
+    "slug": "/hosting/using-a-database#creating-tables-a-name-o-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Inserting data <a name = \"p\"></a>",
+    "slug": "/hosting/using-a-database#inserting-data-a-name-p-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Reading data <a name = \"q\"></a>",
+    "slug": "/hosting/using-a-database#reading-data-a-name-q-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Output:",
+    "slug": "/hosting/using-a-database#output"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Updating data <a name = \"r\"></a>",
+    "slug": "/hosting/using-a-database#updating-data-a-name-r-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Deleting data <a name = \"s\"></a>",
+    "slug": "/hosting/using-a-database#deleting-data-a-name-s-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Committing changes <a name = \"t\"></a>",
+    "slug": "/hosting/using-a-database#committing-changes-a-name-t-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Closing the connection <a name = \"u\"></a>",
+    "slug": "/hosting/using-a-database#closing-the-connection-a-name-u-a"
+  },
+  {
+    "category": "Hosting",
+    "name": "Using a Database",
+    "heading": "Summary <a name = \"v\"></a>",
+    "slug": "/hosting/using-a-database#summary-a-name-v-a"
+  },
+  {
+    "category": "Hosting",
     "name": "Database FAQ",
     "heading": null,
     "slug": "hosting/database-faq"
@@ -1450,6 +2344,18 @@
     "name": "Assigning user roles",
     "heading": "Assigning user roles",
     "slug": "/teams-edu/assigning-user-roles#assigning-user-roles"
+  },
+  {
+    "category": "Teams for Education",
+    "name": "Assigning user roles",
+    "heading": "Adding Org Owners and Admins ",
+    "slug": "/teams-edu/assigning-user-roles#adding-org-owners-and-admins"
+  },
+  {
+    "category": "Teams for Education",
+    "name": "Assigning user roles",
+    "heading": "Assigning Team Admins and Team Members ",
+    "slug": "/teams-edu/assigning-user-roles#assigning-team-admins-and-team-members"
   },
   {
     "category": "Teams for Education",
@@ -2089,6 +2995,54 @@
   },
   {
     "category": "Teams Pro (beta)",
+    "name": "Internal tools with Flask, SQLite, and Pico.css",
+    "heading": null,
+    "slug": "teams-pro/internal-tools-flask-sqlite-pico"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Internal tools with Flask, SQLite, and Pico.css",
+    "heading": "Building internals tools on Replit with Flask, SQLite, and Pico.css",
+    "slug": "/teams-pro/internal-tools-flask-sqlite-pico#building-internals-tools-on-replit-with-flask-sq-lite-and-pico-css"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Internal tools with Flask, SQLite, and Pico.css",
+    "heading": "Building the Python backend",
+    "slug": "/teams-pro/internal-tools-flask-sqlite-pico#building-the-python-backend"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Internal tools with Flask, SQLite, and Pico.css",
+    "heading": "Adding some CRUD and helper functions",
+    "slug": "/teams-pro/internal-tools-flask-sqlite-pico#adding-some-crud-and-helper-functions"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Internal tools with Flask, SQLite, and Pico.css",
+    "heading": "Adding routes to our application",
+    "slug": "/teams-pro/internal-tools-flask-sqlite-pico#adding-routes-to-our-application"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Internal tools with Flask, SQLite, and Pico.css",
+    "heading": "Adding the frontend",
+    "slug": "/teams-pro/internal-tools-flask-sqlite-pico#adding-the-frontend"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Internal tools with Flask, SQLite, and Pico.css",
+    "heading": "Finishing touches",
+    "slug": "/teams-pro/internal-tools-flask-sqlite-pico#finishing-touches"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Internal tools with Flask, SQLite, and Pico.css",
+    "heading": "Where next?",
+    "slug": "/teams-pro/internal-tools-flask-sqlite-pico#where-next"
+  },
+  {
+    "category": "Teams Pro (beta)",
     "name": "Interviewing candidates with guest mode",
     "heading": null,
     "slug": "teams-pro/interviewing-candidates-guest-mode"
@@ -2098,6 +3052,66 @@
     "name": "Interviewing candidates with guest mode",
     "heading": "Interviewing candidates with guest mode",
     "slug": "/teams-pro/interviewing-candidates-guest-mode#interviewing-candidates-with-guest-mode"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Conducting effective technical interview",
+    "heading": null,
+    "slug": "teams-pro/effective-technical-interviews"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Conducting effective technical interview",
+    "heading": "How to effectively conduct technical interviews with Replit",
+    "slug": "/teams-pro/effective-technical-interviews#how-to-effectively-conduct-technical-interviews-with-replit"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Conducting effective technical interview",
+    "heading": "What are technical interviews?",
+    "slug": "/teams-pro/effective-technical-interviews#what-are-technical-interviews"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Conducting effective technical interview",
+    "heading": "Different types of technical interviews",
+    "slug": "/teams-pro/effective-technical-interviews#different-types-of-technical-interviews"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Conducting effective technical interview",
+    "heading": "Technical phone screen",
+    "slug": "/teams-pro/effective-technical-interviews#technical-phone-screen"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Conducting effective technical interview",
+    "heading": "Coding tests",
+    "slug": "/teams-pro/effective-technical-interviews#coding-tests"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Conducting effective technical interview",
+    "heading": "Automated tests",
+    "slug": "/teams-pro/effective-technical-interviews#automated-tests"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Conducting effective technical interview",
+    "heading": "Take-home assessments",
+    "slug": "/teams-pro/effective-technical-interviews#take-home-assessments"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Conducting effective technical interview",
+    "heading": "Live coding tests",
+    "slug": "/teams-pro/effective-technical-interviews#live-coding-tests"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Conducting effective technical interview",
+    "heading": "Onsite interviews",
+    "slug": "/teams-pro/effective-technical-interviews#onsite-interviews"
   },
   {
     "category": "Teams Pro (beta)",
@@ -2214,6 +3228,48 @@
     "slug": "/teams-pro/hosting-your-documentation-on-replit#where-next"
   },
   {
+    "category": "Teams Pro (beta)",
+    "name": "Using Excalidraw on Replit",
+    "heading": null,
+    "slug": "teams-pro/excalidraw-with-replit"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Using Excalidraw on Replit",
+    "heading": "How to use Excalidraw with Replit",
+    "slug": "/teams-pro/excalidraw-with-replit#how-to-use-excalidraw-with-replit"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Using Excalidraw on Replit",
+    "heading": "Steps to follow",
+    "slug": "/teams-pro/excalidraw-with-replit#steps-to-follow"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Using Excalidraw on Replit",
+    "heading": "Getting started with Excalidraw",
+    "slug": "/teams-pro/excalidraw-with-replit#getting-started-with-excalidraw"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Using Excalidraw on Replit",
+    "heading": "Draw: code architecture diagram",
+    "slug": "/teams-pro/excalidraw-with-replit#draw-code-architecture-diagram"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Using Excalidraw on Replit",
+    "heading": "Draw: database architecture diagram",
+    "slug": "/teams-pro/excalidraw-with-replit#draw-database-architecture-diagram"
+  },
+  {
+    "category": "Teams Pro (beta)",
+    "name": "Using Excalidraw on Replit",
+    "heading": "Things to try",
+    "slug": "/teams-pro/excalidraw-with-replit#things-to-try"
+  },
+  {
     "category": "Settings",
     "name": "Changing your username",
     "heading": null,
@@ -2224,18 +3280,6 @@
     "name": "Changing your username",
     "heading": "Changing your username (1 time only!)",
     "slug": "/settings/changing-username#changing-your-username-1-time-only"
-  },
-  {
-    "category": "Settings",
-    "name": "Selecting your favorite languages",
-    "heading": null,
-    "slug": "settings/selecting-favorite-languages"
-  },
-  {
-    "category": "Settings",
-    "name": "Selecting your favorite languages",
-    "heading": "Selecting your favorite languages",
-    "slug": "/settings/selecting-favorite-languages#selecting-your-favorite-languages"
   },
   {
     "category": "Legal and security information",
@@ -2792,8 +3836,8 @@
   {
     "category": "Tutorials",
     "name": "Overview",
-    "heading": "Lesson 9: Building a web application with TDD",
-    "slug": "/tutorials/00-overview#lesson-9-building-a-web-application-with-tdd"
+    "heading": "Lesson 9: Creating a name splitting application using test driven development",
+    "slug": "/tutorials/00-overview#lesson-9-creating-a-name-splitting-application-using-test-driven-development"
   },
   {
     "category": "Tutorials",
@@ -2966,8 +4010,50 @@
   {
     "category": "Tutorials",
     "name": "Overview",
+    "heading": "Lesson 37: Build a block-breaking game with Kaboom",
+    "slug": "/tutorials/00-overview#lesson-37-build-a-block-breaking-game-with-kaboom"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Overview",
+    "heading": "Lesson 38: Rendering 3D scenes with three.js",
+    "slug": "/tutorials/00-overview#lesson-38-rendering-3-d-scenes-with-three-js"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Overview",
     "heading": "Other tutorials",
     "slug": "/tutorials/00-overview#other-tutorials"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Overview",
+    "heading": "Setting Up Your Own Mastodon Instance with Replit",
+    "slug": "/tutorials/00-overview#setting-up-your-own-mastodon-instance-with-replit"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Overview",
+    "heading": "Deploying a Django application on replit",
+    "slug": "/tutorials/00-overview#deploying-a-django-application-on-replit"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Overview",
+    "heading": "Using Replit and Google Sheets to Make a Simple Google Forms Alternative",
+    "slug": "/tutorials/00-overview#using-replit-and-google-sheets-to-make-a-simple-google-forms-alternative"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Overview",
+    "heading": "Getting Started with Rust on Replit",
+    "slug": "/tutorials/00-overview#getting-started-with-rust-on-replit"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Overview",
+    "heading": "Getting Started with the SpaceTraders API on Replit",
+    "slug": "/tutorials/00-overview#getting-started-with-the-space-traders-api-on-replit"
   },
   {
     "category": "Tutorials",
@@ -6385,6 +7471,516 @@
   },
   {
     "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": null,
+    "slug": "tutorials/39-two-player-wordle-clone-python-rich"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": "Building a two player Wordle clone with Python and Rich on Replit",
+    "slug": "/tutorials/39-two-player-wordle-clone-python-rich#building-a-two-player-wordle-clone-with-python-and-rich-on-replit"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": "Getting started",
+    "slug": "/tutorials/39-two-player-wordle-clone-python-rich#getting-started"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": "Installing Rich",
+    "slug": "/tutorials/39-two-player-wordle-clone-python-rich#installing-rich"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": "Printing colored text",
+    "slug": "/tutorials/39-two-player-wordle-clone-python-rich#printing-colored-text"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": "Creating the game loop",
+    "slug": "/tutorials/39-two-player-wordle-clone-python-rich#creating-the-game-loop"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": "Getting and guessing the word",
+    "slug": "/tutorials/39-two-player-wordle-clone-python-rich#getting-and-guessing-the-word"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": "Providing feedback on correct letters",
+    "slug": "/tutorials/39-two-player-wordle-clone-python-rich#providing-feedback-on-correct-letters"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": "Adding an emoji representation for spoiler-free sharing",
+    "slug": "/tutorials/39-two-player-wordle-clone-python-rich#adding-an-emoji-representation-for-spoiler-free-sharing"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": "Some finishing touches",
+    "slug": "/tutorials/39-two-player-wordle-clone-python-rich#some-finishing-touches"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": "Adding instructions",
+    "slug": "/tutorials/39-two-player-wordle-clone-python-rich#adding-instructions"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Wordle with Python and Rich",
+    "heading": "Where next?",
+    "slug": "/tutorials/39-two-player-wordle-clone-python-rich#where-next"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Multi-user static blog with Nix",
+    "heading": null,
+    "slug": "tutorials/40-build-host-company-blog-on-replit-with-hugo-nix"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Multi-user static blog with Nix",
+    "heading": "Build and host your company blog on Replit with Nix and Hugo",
+    "slug": "/tutorials/40-build-host-company-blog-on-replit-with-hugo-nix#build-and-host-your-company-blog-on-replit-with-nix-and-hugo"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Multi-user static blog with Nix",
+    "heading": "Repl architecture",
+    "slug": "/tutorials/40-build-host-company-blog-on-replit-with-hugo-nix#repl-architecture"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Multi-user static blog with Nix",
+    "heading": "Creating the working repl",
+    "slug": "/tutorials/40-build-host-company-blog-on-replit-with-hugo-nix#creating-the-working-repl"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Multi-user static blog with Nix",
+    "heading": "Hello world!",
+    "slug": "/tutorials/40-build-host-company-blog-on-replit-with-hugo-nix#hello-world"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Multi-user static blog with Nix",
+    "heading": "Preparing for production",
+    "slug": "/tutorials/40-build-host-company-blog-on-replit-with-hugo-nix#preparing-for-production"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Multi-user static blog with Nix",
+    "heading": "!/bin/bash",
+    "slug": "/tutorials/40-build-host-company-blog-on-replit-with-hugo-nix#bin-bash"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Multi-user static blog with Nix",
+    "heading": "Creating the production repl",
+    "slug": "/tutorials/40-build-host-company-blog-on-replit-with-hugo-nix#creating-the-production-repl"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Multi-user static blog with Nix",
+    "heading": "Writing posts",
+    "slug": "/tutorials/40-build-host-company-blog-on-replit-with-hugo-nix#writing-posts"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Multi-user static blog with Nix",
+    "heading": "Where next?",
+    "slug": "/tutorials/40-build-host-company-blog-on-replit-with-hugo-nix#where-next"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": null,
+    "slug": "tutorials/41-build-space-invaders-with-kaboom"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Building Space Invaders with Kaboom.js",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#building-space-invaders-with-kaboom-js"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Game mechanics",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#game-mechanics"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Getting started on Replit",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#getting-started-on-replit"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Setting up Kaboom",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#setting-up-kaboom"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Importing sprites and other game assets",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#importing-sprites-and-other-game-assets"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Making a scene",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#making-a-scene"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Adding the player object",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#adding-the-player-object"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Adding the aliens",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#adding-the-aliens"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Moving the player",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#moving-the-player"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Moving the aliens",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#moving-the-aliens"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Firing bullets",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#firing-bullets"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Bullet collisions with aliens",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#bullet-collisions-with-aliens"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "The aliens fight back",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#the-aliens-fight-back"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Bullet collisions with the player",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#bullet-collisions-with-the-player"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Space Invaders with Kaboom.js",
+    "heading": "Next steps",
+    "slug": "/tutorials/41-build-space-invaders-with-kaboom#next-steps"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": null,
+    "slug": "tutorials/42-build-a-robot-nft"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Build a robot NFT on the Ethereum blockchain with Solidity and Replit (part 1)",
+    "slug": "/tutorials/42-build-a-robot-nft#build-a-robot-nft-on-the-ethereum-blockchain-with-solidity-and-replit-part-1"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Getting started",
+    "slug": "/tutorials/42-build-a-robot-nft#getting-started"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Solidity repl",
+    "slug": "/tutorials/42-build-a-robot-nft#solidity-repl"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Browser wallet",
+    "slug": "/tutorials/42-build-a-robot-nft#browser-wallet"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Introduction to smart contract development",
+    "slug": "/tutorials/42-build-a-robot-nft#introduction-to-smart-contract-development"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "NFT design",
+    "slug": "/tutorials/42-build-a-robot-nft#nft-design"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Contract code scaffold",
+    "slug": "/tutorials/42-build-a-robot-nft#contract-code-scaffold"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "NFT data structures",
+    "slug": "/tutorials/42-build-a-robot-nft#nft-data-structures"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Minting NFTs",
+    "slug": "/tutorials/42-build-a-robot-nft#minting-nf-ts"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Viewing token data",
+    "slug": "/tutorials/42-build-a-robot-nft#viewing-token-data"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Testing our contract",
+    "slug": "/tutorials/42-build-a-robot-nft#testing-our-contract"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Breeding bots",
+    "slug": "/tutorials/42-build-a-robot-nft#breeding-bots"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Adding events",
+    "slug": "/tutorials/42-build-a-robot-nft#adding-events"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 1: on Ethereum blockchain",
+    "heading": "Next steps",
+    "slug": "/tutorials/42-build-a-robot-nft#next-steps"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": null,
+    "slug": "tutorials/43-build-a-robot-nft-p2"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "Build a robot NFT on the Ethereum blockchain with Solidity and Replit (part 2)",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#build-a-robot-nft-on-the-ethereum-blockchain-with-solidity-and-replit-part-2"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "Getting started",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#getting-started"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "Setting up the front-end",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#setting-up-the-front-end"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "bots {",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#bots"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "bots > svg {",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#bots-svg"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "Connecting to the blockchain",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#connecting-to-the-blockchain"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "Interfacing with the smart contract",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#interfacing-with-the-smart-contract"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "Running contract functions",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#running-contract-functions"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "Viewing and combining SVGs",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#viewing-and-combining-sv-gs"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "Connecting the UI",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#connecting-the-ui"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "Running our application",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#running-our-application"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Robot NFT Part 2: Frontend",
+    "heading": "Where next?",
+    "slug": "/tutorials/43-build-a-robot-nft-p2#where-next"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": null,
+    "slug": "tutorials/44-build-smart-contract-oracle"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Build a smart contract oracle with Solidity, Node.js, and Replit",
+    "slug": "/tutorials/44-build-smart-contract-oracle#build-a-smart-contract-oracle-with-solidity-node-js-and-replit"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Getting started",
+    "slug": "/tutorials/44-build-smart-contract-oracle#getting-started"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Solidity repl",
+    "slug": "/tutorials/44-build-smart-contract-oracle#solidity-repl"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Browser wallet",
+    "slug": "/tutorials/44-build-smart-contract-oracle#browser-wallet"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Oracle design",
+    "slug": "/tutorials/44-build-smart-contract-oracle#oracle-design"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Caller contract",
+    "slug": "/tutorials/44-build-smart-contract-oracle#caller-contract"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Oracle contract",
+    "slug": "/tutorials/44-build-smart-contract-oracle#oracle-contract"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Node.js data provider",
+    "slug": "/tutorials/44-build-smart-contract-oracle#node-js-data-provider"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Caller contract frontend",
+    "slug": "/tutorials/44-build-smart-contract-oracle#caller-contract-frontend"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Putting it all together",
+    "slug": "/tutorials/44-build-smart-contract-oracle#putting-it-all-together"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Compiling and deploying the contracts",
+    "slug": "/tutorials/44-build-smart-contract-oracle#compiling-and-deploying-the-contracts"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Initializing the contracts",
+    "slug": "/tutorials/44-build-smart-contract-oracle#initializing-the-contracts"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Preparing the data provider",
+    "slug": "/tutorials/44-build-smart-contract-oracle#preparing-the-data-provider"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Preparing the client frontend",
+    "slug": "/tutorials/44-build-smart-contract-oracle#preparing-the-client-frontend"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Running the repl",
+    "slug": "/tutorials/44-build-smart-contract-oracle#running-the-repl"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Start data provider in the background",
+    "slug": "/tutorials/44-build-smart-contract-oracle#start-data-provider-in-the-background"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Start client frontend",
+    "slug": "/tutorials/44-build-smart-contract-oracle#start-client-frontend"
+  },
+  {
+    "category": "Tutorials",
+    "name": "Smart contract oracle with Solidity",
+    "heading": "Where next?",
+    "slug": "/tutorials/44-build-smart-contract-oracle#where-next"
+  },
+  {
+    "category": "Tutorials",
     "name": "Pinboard project part 1: HTML & CSS",
     "heading": null,
     "slug": "tutorials/pinboard-project-part-1"
@@ -7234,5 +8830,119 @@
     "name": "Make Javascript Games",
     "heading": "Make Javascript Games",
     "slug": "/replit-books/makes-js-games#make-javascript-games"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Introduction",
+    "heading": null,
+    "slug": "html/html-intro"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Introduction",
+    "heading": "Introduction to HTML",
+    "slug": "/html/html-intro#introduction-to-html"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Introduction",
+    "heading": "What is HTML? ",
+    "slug": "/html/html-intro#what-is-html"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Introduction",
+    "heading": "HTML Tags",
+    "slug": "/html/html-intro#html-tags"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Introduction",
+    "heading": "HTML Elements",
+    "slug": "/html/html-intro#html-elements"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Introduction",
+    "heading": "HTML Skeleton",
+    "slug": "/html/html-intro#html-skeleton"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Introduction",
+    "heading": "HTML History",
+    "slug": "/html/html-intro#html-history"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Basic Examples",
+    "heading": null,
+    "slug": "html/html-basic"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Basic Examples",
+    "heading": "HTML Basic Examples",
+    "slug": "/html/html-basic#html-basic-examples"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Basic Examples",
+    "heading": "Adding Content to our HTML Body",
+    "slug": "/html/html-basic#adding-content-to-our-html-body"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Basic Examples",
+    "heading": "Create your own HTML File",
+    "slug": "/html/html-basic#create-your-own-html-file"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Elements",
+    "heading": null,
+    "slug": "html/html-elements"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Elements",
+    "heading": "HTML ELEMENTS",
+    "slug": "/html/html-elements#html-elements"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Elements",
+    "heading": "Empty HTML Elements",
+    "slug": "/html/html-elements#empty-html-elements"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Elements",
+    "heading": "Nested HTML Elements",
+    "slug": "/html/html-elements#nested-html-elements"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Elements",
+    "heading": "Don’t Skip the Closing tag",
+    "slug": "/html/html-elements#dont-skip-the-closing-tag"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Elements",
+    "heading": "HTML Case Insensitivity",
+    "slug": "/html/html-elements#html-case-insensitivity"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Elements",
+    "heading": "HTML Elements Type",
+    "slug": "/html/html-elements#html-elements-type"
+  },
+  {
+    "category": "HTML Tutorials",
+    "name": "HTML Elements",
+    "heading": "HTML Example",
+    "slug": "/html/html-elements#html-example"
   }
 ]
