@@ -27,8 +27,8 @@ The markdown files support the following HTML tags:
 * `video`
 * `source`
 
-Though markdown is preferred whenever possible.  Most of these tags are used when specific styles (such as inline images) are needed.
+Markdown is preferred whenever possible.  Most of these tags are used when specific styles (such as inline images) are needed.
 
 # Contact
 
-If you need anything, feel free to reach out to us at [contact@replit.com](mailto:contact@replit.com) or open an issue on this repo.
+If you need anything, feel free to reach out to us at [contact@replit.com](mailto:contact@replit.com) or open an issue on this repository.
