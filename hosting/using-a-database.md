@@ -436,5 +436,5 @@ connection.close()
 
 ### Summary <a name = "v"></a>
 
-The SQLite database provides an intuitive table format for our data that we can easily interact with by way of queries. The fact we do not need to install or configure our database makes for an easy setup, and the ability to create multiple tables and databases means we can store our data separately while being able to merge files if needed.
+A SQLite database provides an intuitive table format for our data that we can easily interact with by way of queries. The fact we do not need to install or configure our database makes for an easy setup, and the ability to create multiple tables and databases means we can store our data separately while being able to merge files if needed.
  
