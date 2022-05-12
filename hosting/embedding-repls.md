@@ -55,9 +55,3 @@ To embed your repl on Medium, paste the repl link `https://replit.com/@username/
 To embed your repl on Ghost, paste the repl link `https://replit.com/@username/repl-name` into your Ghost post. The link will automatically be converted to an interactive IDE, where you can edit and run code.
 
 ![Ghost demo](/images/repls/embed/oembed-demo.gif)
-
-## Editing an embedded repl
-
-If anyone edits an embedded repl, a fork will be created so that they edit their own copy. If the user is logged in to Replit in their browser, the forked repl will show up on their "My repls" dashboard.
-
-If the owner of an embedded repl edits it, those changes will be saved to the repl and become visible to others who view the embedded repl.
