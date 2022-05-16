@@ -1,4 +1,4 @@
-# HTML ELEMENTS
+# HTML Elements
 
 An HTML Element is an individual component of an HTML document. It represents the semantics or meaning. It usually contains three parts: the opening tag, the content, and the closing tag. 
 

@@ -626,6 +626,208 @@
       {
         "name": "HTML Elements",
         "slug": "html-elements"
+      }, 
+      {
+        "name": "HTML Attributes",
+        "slug": "html-attributes"
+      },
+      {
+        "name": "HTML Headings",
+        "slug": "html-headings"
+      },
+      {
+        "name": "HTML Paragraphs",
+        "slug": "html-paragraphs"
+      },
+      {
+        "name": "HTML Styles",
+        "slug": "html-styles"
+      },
+      {
+        "name": "HTML Formatting",
+        "slug": "html-formatting"
+      },
+      {
+        "name": "HTML Quotations",
+        "slug": "html-quotations"
+      },
+      {
+        "name": "HTML Comments",
+        "slug": "html-comments"
+      },
+      {
+        "name": "HTML Colors",
+        "slug": "html-colors"
+      },
+      {
+        "name": "HTML CSS",
+        "slug": "html-css"
+      },
+      {
+        "name": "HTML Links",
+        "slug": "html-links"
+      },
+      {
+        "name": "HTML Images",
+        "slug": "html-images"
+      },
+      {
+        "name": "HTML Favicon",
+        "slug": "html-favicon"
+      },
+      {
+        "name": "HTML Tables",
+        "slug": "html-tables"
+      },
+      {
+        "name": "HTML Lists",
+        "slug": "html-lists"
+      },
+      {
+        "name": "HTML Block and Inline",
+        "slug": "html-block-and-inline"
+      },
+      {
+        "name": "HTML Classes",
+        "slug": "html-classes"
+      },
+      {
+        "name": "HTML ID",
+        "slug": "html-id"
+      },
+      {
+        "name": "HTML Iframes",
+        "slug": "html-iframes"
+      },
+      {
+        "name": "HTML JavaScript",
+        "slug": "html-javascript"
+      },
+      {
+        "name": "HTML File Paths",
+        "slug": "html-file-paths"
+      },
+      {
+        "name": "HTML Head",
+        "slug": "html-head"
+      },
+      {
+        "name": "HTML Layout",
+        "slug": "html-layout"
+      },
+      {
+        "name": "HTML Responsive",
+        "slug": "html-responsive"
+      }
+    ]
+  },
+  {
+    "name": "CSS Tutorials",
+    "slug": "css",
+    "contents": [
+      {
+        "name": "CSS Introduction",
+        "slug": "css-introduction"
+      },
+      {
+        "name": "CSS Syntax",
+        "slug": "css-syntax"
+      },
+      {
+        "name": "CSS Selectors",
+        "slug": "css-selectors"
+      }, 
+      {
+        "name": "CSS How To",
+        "slug": "css-how-to"
+      },
+      {
+        "name": "CSS Comments",
+        "slug": "css-comments"
+      },
+      {
+        "name": "CSS Colors",
+        "slug": "css-colors"
+      },
+      {
+        "name": "CSS Backgrounds",
+        "slug": "css-backgrounds"
+      },
+      {
+        "name": "CSS Borders",
+        "slug": "css-borders"
+      },
+      {
+        "name": "CSS Margins",
+        "slug": "css-margins"
+      },
+      {
+        "name": "CSS Padding",
+        "slug": "css-padding"
+      },
+      {
+        "name": "CSS Height/Width",
+        "slug": "css-height-width"
+      },
+      {
+        "name": "CSS Box Model",
+        "slug": "css-box-model"
+      },
+      {
+        "name": "CSS Outline",
+        "slug": "css-outline"
+      },
+      {
+        "name": "CSS Text",
+        "slug": "css-text"
+      },
+      {
+        "name": "CSS Fonts",
+        "slug": "css-fonts"
+      },
+      {
+        "name": "CSS Icons",
+        "slug": "css-icons"
+      },
+      {
+        "name": "CSS Links",
+        "slug": "css-links"
+      },
+      {
+        "name": "CSS Lists",
+        "slug": "css-lists"
+      },
+      {
+        "name": "CSS Tables",
+        "slug": "css-tables"
+      },
+      {
+        "name": "CSS Display",
+        "slug": "css-display"
+      },
+      {
+        "name": "CSS Max-width",
+        "slug": "css-max-width"
+      },
+      {
+        "name": "CSS Position",
+        "slug": "css-position"
+      },
+      {
+        "name": "CSS Z-index",
+        "slug": "css-z-index"
+      },
+      {
+        "name": "CSS Overflow",
+        "slug": "css-overflow"
+      },
+      {
+        "name": "CSS Float",
+        "slug": "css-float"
+      },
+      {
+        "name": "CSS Inline-block",
+        "slug": "css-inline-block"
       }
     ]
   }
