@@ -42,7 +42,7 @@ The query parameter `?lite=true` produces a full preview of a repl in an embed, 
 
 ## Embedding on WordPress
 
-WordPress supports oEmbed, but will only embed content from an approved whitelist of websites. Check out the [WordPress documentation](https://wordpress.org/support/article/embeds/#adding-support-for-an-oembed-enabled-site) for instructions on adding Replit to the whitelist. Once Replit is added, a repl URL formatted as `https://replit.com/@username/repl-name` will automatically embed an interactive copy of the repl in your WordPress site.
+WordPress does support oEmbed, but will only embed content from an approved whitelist of websites. Check out the [WordPress documentation](https://wordpress.org/support/article/embeds/#adding-support-for-an-oembed-enabled-site) for instructions on adding Replit to the whitelist. Once Replit is added, a repl URL formatted as `https://replit.com/@username/repl-name` will automatically embed an interactive copy of the repl in your WordPress site.
 
 ## Embedding on Medium
 
