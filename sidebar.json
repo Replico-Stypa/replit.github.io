@@ -75,6 +75,10 @@
         "slug": "git-with-replit"
       },
       {
+        "name": "GitHub Authentication Errors in Replit",
+        "slug": "github-auth-errors"
+      },
+      {
         "name": "Git Commands Reference Guide",
         "slug": "git-commands-reference-guide"
       },

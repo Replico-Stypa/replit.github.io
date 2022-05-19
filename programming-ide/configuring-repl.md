@@ -4,7 +4,9 @@ Every new repl comes with a `.replit` and a `replit.nix` file that let you confi
 
 In most repls, these files are hidden by default. But you can find them easily by clicking the three dot menu in the file tree, and selecting _Show hidden files_.
 
-![](/images/tutorials/30-build-with-nix/show-hidden-files.png)
+<img src="/images/tutorials/30-build-with-nix/show-hidden-files.png"
+    alt="Show configuration"
+    style="width: 350px !important;"/>
 
 ## `replit.nix`
 
@@ -146,7 +148,7 @@ Enables [system-wide audio](https://docs.replit.com/misc/playing-audio-replit) f
 
 **Type:**  `string`
 
-Reserved. During a GitHub import, this tells the workspace which language should be used when creating the repl. For new repls, this option will always be Nix, so this field should generally not be touched.
+During a GitHub import, this tells the workspace which language should be used when creating the repl. For new repls, this option will always be Nix, so this field should generally not be touched.
 
 ---
 
