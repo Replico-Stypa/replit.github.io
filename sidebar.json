@@ -342,6 +342,10 @@
       {
         "name": "Classic Basic on Replit",
         "slug": "classic-basic-replit"
+      },
+      {
+        "name": "Running Rails on Replit",
+        "slug": "rails-on-replit"
       }
     ]
   },
