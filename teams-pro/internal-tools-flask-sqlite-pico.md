@@ -197,7 +197,7 @@ In the `index.html` file, add the following code:
 </html>
 ```
 
-Note how Flask uses Jinja templates, which lets us mix some Python-like functionality into our frontend, using tags such as `{% for task in tasks %}`. Our main loop goes through all the existing tasks and displays them. It adds update and delete buttons referencing each `task.id` so that these can be passed to the backend and our server-side code can perform the necessary operations on our database.
+Our main loop goes through all the existing tasks and displays them. It adds update and delete buttons referencing each `task.id` so that these can be passed to the backend and our server-side code can perform the necessary operations on our database.
 
 In `login.html` add:
 
