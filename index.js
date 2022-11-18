@@ -38,7 +38,7 @@ const render = async (res, category, slug) => {
     // landing page gets a short title for search engine visibility
     res.locals.title = 'Replit Docs';
   } else {
-	  res.locals.title = `Replit Docs - ${ dobj? dobj.name : slug }`;
+	  res.locals.title = `Replico - ${ dobj? dobj.name : slug }`;
   }
 	res.render('index.ejs');
 }
